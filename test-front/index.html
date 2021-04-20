@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+      $(function(){
+        // alert(1);
+        $.get('http://server1:3000/series?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwN2VlNmIwMmE0MGNiMzdmY2EyZGVmMyIsInVzZXJuYW1lIjoidHVsaW8iLCJyb2xlcyI6WyJyZXN0cml0byIsImFkbWluIl0sImlhdCI6MTYxODk1MTQ4MH0.letp7NWeboJLclyIkXf6yZYsRhS3p_TOYloMxVyb1io', (data) => {
+          console.log(data)
+        })
+      })
+    </script>
+  </body>
+</html>
